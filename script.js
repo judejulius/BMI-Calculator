@@ -5,7 +5,7 @@
         var bmio=(bmi.toFixed(2));
         document.getElementById("result").innerHTML="Your BMI is " + bmio;
 
-        if(bmio <= 25 && bmio > 40){
+        if(bmio > 25){
             document.getElementById("result1").innerHTML = "You are Overweight"
         }else if(bmio >= 18 && bmio <= 25){
             document.getElementById("result1").innerHTML = "You have a good BMI"
